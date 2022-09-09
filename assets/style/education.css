@@ -1,0 +1,10 @@
+/* education */
+.wrapper > #body > #education {
+    width: 90%;
+    min-height: 10vh;
+    display: flex;
+    gap: 2%;
+    --width-left: 20%;
+    --width-right: calc( 100% - var(--width-left) );
+  }
+  

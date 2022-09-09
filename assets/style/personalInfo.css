@@ -1,0 +1,43 @@
+/* Personal Info */
+.wrapper>#body>#personalInfo {
+    width: 70%;
+    margin: auto auto;
+    min-height: 20vh;
+    display: flex;
+    gap: 2%;
+    --width-left: 30%;
+    --width-right: calc(100% - var(--width-left)-2%);
+}
+
+.wrapper>#body>#personalInfo>.left {
+    width: var(--width-left);
+    border-right: #a8d0ed;
+}
+
+.wrapper>#body>#personalInfo>.right {
+    width: var(--width-right);
+}
+
+
+
+#personalInfo>.left>.circle-avarta>img {
+    width: 250px;
+    height: 250px;
+}
+
+#personalInfo>.right>.personalInfo-Content>div {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    --width-left: 10%;
+    --width-right: 90%;
+}
+
+#personalInfo>.right>.personalInfo-Content>div:last-child {
+    align-items: unset;
+}
+
+#personalInfo>.right>.personalInfo-Content>div>.content>.category {
+    font-weight: 700;
+}
