@@ -8,3 +8,9 @@
     --width-right: calc( 100% - var(--width-left) );
   }
   
+
+#education > .left > .content > p {
+    text-align: right;
+    width: 80%;
+    margin: auto;
+  }

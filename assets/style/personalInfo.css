@@ -11,14 +11,16 @@
 
 .wrapper>#body>#personalInfo>.left {
     width: var(--width-left);
-    border-right: #a8d0ed;
 }
 
 .wrapper>#body>#personalInfo>.right {
     width: var(--width-right);
 }
 
-
+.wrapper>#body>#personalInfo>.right > h3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+}
 
 #personalInfo>.left>.circle-avarta>img {
     width: 250px;

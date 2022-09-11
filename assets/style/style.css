@@ -15,11 +15,12 @@
   min-height: 100vh;
   width: 100vw;
   max-width: 100%;
+  --bg-color: #a8d0ed;
 }
 /* header */
 .wrapper > #header {
   height: 15vh;
-  background-color: #a8d0ed;
+  background-color: var(--bg-color);
   box-shadow: 1px 1px 8px 2px grey;
 }
 
@@ -40,8 +41,20 @@
   margin-left: auto;
 }
 
-.right > h3 {
+.left > h3 {
   font-family: 'Segoe UI', sans-serif;
   font-style: normal;
 }
 
+#body > div {
+  padding-top: 2vh;
+}
+
+#body > div > .left {
+  width: 20%;
+  border-right: 3px solid var(--bg-color);
+}
+
+#body > div > .right {
+  width: 80%;
+}
