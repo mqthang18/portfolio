@@ -9,7 +9,11 @@
     --width-right: calc(100% - var(--width-left)-2%);
 }
 
-.wrapper>#body>#personalInfo>.left {
+/* #personalInfo .left-personal {
+    border-right: none;
+  } */
+
+.wrapper>#body>#personalInfo>.left-personal {
     width: var(--width-left);
 }
 
@@ -22,7 +26,7 @@
     font-style: normal;
 }
 
-#personalInfo>.left>.circle-avarta>img {
+#personalInfo>.left-personal>.circle-avarta>img {
     width: 250px;
     height: 250px;
 }
@@ -42,4 +46,8 @@
 
 #personalInfo>.right>.personalInfo-Content>div>.content>.category {
     font-weight: 700;
+}
+
+.personalInfo-Content .content {
+    font-family: 'Segoe UI', sans-serif;
 }
