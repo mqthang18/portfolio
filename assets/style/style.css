@@ -70,3 +70,9 @@ h3 {
   background-color: var(--header-bgColor);
   width: 200px;
 }
+
+@media screen and (max-width: 350px) {
+  .wrapper > #header > center {
+  font-size: 4vh;
+ }   
+}
