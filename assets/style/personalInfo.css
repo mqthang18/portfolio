@@ -4,6 +4,7 @@
     margin: auto auto;
     min-height: 20vh;
     display: flex;
+    flex-wrap: wrap;
     gap: 2%;
     --width-left: 30%;
     --width-right: calc(100% - var(--width-left)-2%);
@@ -26,7 +27,7 @@
     font-style: normal;
 }
 
-#personalInfo>.left-personal>.circle-avarta>img {
+#personalInfo>.left-personal>.circle-avarta img {
     width: 250px;
     height: 250px;
 }
@@ -50,4 +51,26 @@
 
 .personalInfo-Content .content {
     font-family: 'Segoe UI', sans-serif;
+}
+
+@media screen and (max-width: 1230px) {
+    .wrapper>#body {
+        width: 100%;
+    }
+    .wrapper>#body>#personalInfo {
+        width: 100%;
+    }
+
+    .wrapper>#body>#personalInfo>.left-personal {
+        width: 100%;
+    }
+
+    .wrapper>#body>#personalInfo>.right {
+        width: 100%;
+    }
+
+
+    #personalInfo>.left-personal>.circle-avarta>img {
+        margin-bottom: 1vh;
+    }
 }
