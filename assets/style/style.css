@@ -60,15 +60,71 @@
 
 
 h3 {
-  font-family: 'Segoe UI', sans-serif;
-  font-style: normal;
   color: whitesmoke;
   padding: 0.5vh 0vw 0.5vh 1vw;
 }
 
 .label {
+  margin-top: 1vh;
   background-color: var(--header-bgColor);
   width: 200px;
+}
+
+
+/* Content element */
+.stage {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 2%;
+  --width-left: 20%;
+  --width-right: calc(100% - var(--width-left) - 2%);
+}  
+.stage > .left {
+  border-right: 3px solid var(--bg-color);
+  width: var(--width-left);
+}
+
+.stage > .right {
+  width: var(--width-right);
+}
+
+/* Content style */
+.standardfont {
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+}
+
+.standardcontent {
+  font-weight: 700;
+  width: 80%;
+  margin: auto;
+  text-align: right;
+}
+
+/* Block content */
+.block-content {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 783px) {
+ .stage {
+  flex-wrap: wrap;
+ } 
+ .stage > .right {
+  width: 90%;
+  margin: auto;
+ }
+ .stage > .left {
+  width: 90%;
+  margin: auto;
+  border: none;
+ }
+
+ .standardcontent {
+  text-align: left;
+ }
 }
 
 @media screen and (max-width: 500px) {

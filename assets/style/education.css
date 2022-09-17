@@ -2,29 +2,17 @@
 .wrapper > #body > #education {
     width: 100%;
     min-height: 10vh;
-    display: flex;
+    /* display: flex; */
     /* gap: 2%; */
     --width-left: 20%;
     --width-right: calc( 100% - var(--width-left) );
   }
   
 
-#education > .left > .content > p {
-    font-family: "Segoe UI", sans-serif;
-    text-align: right;
-    width: 80%;
-    margin: auto;
-    padding-top: 1vh;
-    font-weight: 700;
+
+@media screen and (max-width: 768px) {
+  .stage {
+    flex-wrap: wrap;
+    --width-left: 100%;
   }
-
-
-#education > .right > .content {
-  /* padding-top: 4vh; */
-}
-
-#education > .right > .content > p {
-  font-family: 'Segoe UI', sans-serif;
-  padding-left: 2%;
-  padding-top: 1vh;
 }

@@ -6,6 +6,8 @@
     display: flex;
     gap: 1%;
     flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
 }
 
 .item-block {
@@ -118,4 +120,13 @@
     z-index: 100;
     font-size: 40px;
     transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .project-list {
+        justify-content: space-around; 
+    }    
+    .item-block {
+        margin-bottom: 1vh;
+    }
 }
