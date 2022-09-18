@@ -1,0 +1,18 @@
+/* education */
+.wrapper > #body > #experiment {
+    width: 100%;
+    min-height: 10vh;
+    /* display: flex; */
+    /* gap: 2%; */
+    --width-left: 20%;
+    --width-right: calc( 100% - var(--width-left) );
+  }
+  
+
+
+/* @media screen and (max-width: 768px) {
+  .stage {
+    flex-wrap: wrap;
+    --width-left: 100%;
+  }
+} */

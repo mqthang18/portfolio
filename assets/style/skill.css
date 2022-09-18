@@ -1,0 +1,12 @@
+/* education */
+.wrapper > #body > #skill {
+    width: 100%;
+    min-height: 10vh;
+    /* display: flex; */
+    /* gap: 2%; */
+    --width-left: 20%;
+    --width-right: calc( 100% - var(--width-left) );
+  }
+  
+
+
