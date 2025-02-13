@@ -46,15 +46,15 @@
 }
 
 .representImage-1 {
-    background-image: url("../../assets/img/project/WebShop.jpeg");
-}
-
-.representImage-2 {
     background-image: url("../../assets/img/project/billdoan.png");
 }
 
+.representImage-2 {
+    background-image: url("../../assets/img/project/geodatabase.png");
+}
+
 .representImage-3 {
-    background-image: url("../../assets/img/project/geodatabase.jpeg");
+    background-image: url("../../assets/img/project/UDQL_billdoan.png");
 }
 
 .animation::before {
